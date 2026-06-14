@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1691516136077983" crossorigin="anonymous"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QFF1K0SGJ1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-QFF1K0SGJ1')</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pictonico! Photo Lab — Turn Your Photo Into Game Style Online</title>
+<meta name="description" content="Upload any photo and see it transformed into Pictonico! game style with AI filters, cartoon effects, and game UI overlay. Choose from 5 game scenes and 4 filter styles. 100% local processing — your photos never leave your device.">
+<meta name="keywords" content="Pictonico photo lab, turn photo into game, Pictonico photo to game, Pictonico game style, photo to cartoon game, Pictonico filter, photo game overlay, Pictonico online tool, photo to Pictonico, game style photo converter">
+<meta name="author" content="Pictonico Guide Community">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Pictonico! Photo Lab — Turn Your Photo Into Game Style">
+<meta property="og:description" content="Upload your photo and preview how it looks in Pictonico! style. 5 game scenes, 4 filter styles — all processed locally in your browser. Free online tool.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://gamehpego.com/lab.html">
+<link rel="alternate" hreflang="en" href="https://gamehpego.com/lab.html">
+<link rel="alternate" hreflang="id" href="https://gamehpego.com/id/lab.html">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<style>
+.page-hero{padding:120px 32px 48px;text-align:center;background:var(--bg2)}
+.page-hero .sec-label{display:inline-flex;align-items:center;gap:8px;padding:6px 18px;border-radius:25px;background:rgba(255,107,107,.08);color:#ff6b6b;font-size:.78rem;font-weight:600;letter-spacing:.03em;margin-bottom:18px}
+.page-hero .sec-label .dot{width:8px;height:8px;border-radius:50%;background:#ff6b6b;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.page-hero h2{font-family:'Playfair Display',serif;font-size:clamp(2rem,4.5vw,3rem);font-weight:900;color:var(--white);line-height:1.15;letter-spacing:-.02em}
+.page-hero h2 em{color:#ff6b6b;font-style:normal}
+.page-hero .sub{color:var(--dim);font-size:1.05rem;max-width:640px;margin:16px auto 0}
+.lab-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;margin-top:48px}
+.upload-zone{background:var(--card-bg);border:2px dashed var(--border);border-radius:var(--radius);padding:60px 32px;text-align:center;cursor:pointer;transition:var(--tr)}
+.upload-zone:hover,.upload-zone.dragover{border-color:var(--accent);background:rgba(255,107,107,.04)}
+.upload-zone .up-icon{font-size:4rem;margin-bottom:16px}
+.upload-zone h3{color:var(--white);font-size:1.2rem;margin-bottom:8px}
+.upload-zone p{color:var(--dim);font-size:.88rem}
+.upload-zone input{display:none}
+.style-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}
+.style-btn{padding:14px 16px;border-radius:var(--radius-sm);border:1px solid var(--border);background:var(--card-bg);color:var(--text);cursor:pointer;font-size:.85rem;font-weight:600;font-family:inherit;transition:var(--tr);text-align:left;display:flex;align-items:center;gap:10px}
+.style-btn:hover,.style-btn.on{border-color:var(--accent);background:rgba(255,107,107,.06);color:var(--accent)}
+.style-btn .em{font-size:1.6rem}
+.result-box{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-align:center;min-height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.result-box .placeholder{color:var(--dim);font-size:3rem;margin-bottom:12px}
+.result-box .placeholder p{font-size:.9rem;margin-top:6px;white-space:pre-line}
+.result-box canvas{max-width:100%;border-radius:var(--radius-sm);box-shadow:var(--shadow)}
+.game-select{margin-top:20px}
+.game-select select{width:100%;padding:14px 16px;border-radius:var(--radius-sm);border:1px solid var(--border);background:var(--card-bg);color:var(--text);font-size:.9rem;font-family:inherit;cursor:pointer;transition:var(--tr)}
+.game-select select:focus{outline:none;border-color:var(--accent)}
+.game-select label{display:block;color:var(--dim);font-size:.82rem;margin-bottom:8px;font-weight:600}
+.actions{display:flex;gap:12px;margin-top:20px;flex-wrap:wrap}
+.btn-sec{padding:12px 28px;border-radius:25px;border:1px solid var(--border);background:var(--card-bg);color:var(--text);font-weight:600;font-size:.84rem;cursor:pointer;font-family:inherit;transition:var(--tr)}
+.btn-sec:hover{border-color:var(--accent);color:var(--accent)}
+.instructions{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:24px 28px;margin-top:32px}
+.instructions h3{color:var(--white);font-size:1rem;margin-bottom:12px}
+.instructions ol{color:var(--dim);font-size:.86rem;line-height:2;padding-left:20px}
+@media(max-width:900px){.lab-grid{grid-template-columns:1fr}.style-grid{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+
+<header><div class="hdr-inner">
+  <a class="logo" href="index.html">📸 Pictonico!<em style="color:var(--accent);font-style:normal">Guide</em></a>
+  <button class="nav-ham" id="ham" onclick="document.getElementById('nl').classList.toggle('open')"><span></span><span></span><span></span></button>
+  <div class="nav-links" id="nl">
+    <a href="index.html" data-t="nav_home">Home</a>
+    <a href="minigames.html" data-t="nav_games">Mini Games</a>
+    <a href="tips.html" data-t="nav_tips">Photo Tips</a>
+    <a href="lab.html" class="active" data-t="nav_lab">Photo Lab</a>
+  </div>
+  <div class="lang-toggle">
+    <button class="lang-btn on" data-lang="en">EN</button>
+    <button class="lang-btn" data-lang="id">ID</button>
+  </div>
+  <a class="nav-cta" href="https://pictonico.nintendo.com/" target="_blank" rel="noopener" data-t="nav_cta">Download</a>
+</div></header>
+
+<div class="page-hero">
+  <span class="sec-label"><span class="dot"></span><span data-t="lab_tag">Photo Lab</span></span>
+  <h2 data-t="lab_title">Upload Photo · Instant Game Style</h2>
+  <p class="sub" data-t="lab_sub">Pick a photo, apply AI style filter + game UI overlay</p>
+</div>
+
+<section><div class="sec-inner" style="max-width:1300px;margin:0 auto">
+  <div class="lab-grid">
+    <div>
+      <div class="upload-zone" id="dropZone" onclick="document.getElementById('fileInput').click()">
+        <div class="up-icon">📤</div>
+        <h3 data-t="lab_upload_title">Click or Drag to Upload</h3>
+        <p data-t="lab_upload_desc">Supports JPG / PNG / WebP. Clear front-facing photos recommended.</p>
+        <input type="file" id="fileInput" accept="image/*">
+      </div>
+      <div class="game-select">
+        <label data-t="lab_scene_label">🎮 Choose Game Scene</label>
+        <select id="gameSelect">
+          <option value="feed" data-t="lab_scene_feed">🍔 Boss is Hungry — Feed!</option>
+          <option value="carpet" data-t="lab_scene_carpet">🏃 Red Carpet Moment</option>
+          <option value="boss" data-t="lab_scene_boss">🥊 Friend Turns Into Final BOSS</option>
+          <option value="clean" data-t="lab_scene_clean">🧹 Erase Embarrassing Memory</option>
+          <option value="mummy" data-t="lab_scene_mummy">💄 Wrap Friend as a Mummy</option>
+        </select>
+      </div>
+      <div class="style-grid" id="styleGrid">
+        <button class="style-btn on" data-style="cartoon"><span class="em">🎨</span><span data-t="lab_style_cartoon">Cartoon</span></button>
+        <button class="style-btn" data-style="retro"><span class="em">📺</span><span data-t="lab_style_retro">Retro Pixel</span></button>
+        <button class="style-btn" data-style="vivid"><span class="em">🌈</span><span data-t="lab_style_vivid">Vivid Comic</span></button>
+        <button class="style-btn" data-style="poster"><span class="em">🖼️</span><span data-t="lab_style_poster">Poster Style</span></button>
+      </div>
+      <div class="actions">
+        <button class="btn-primary" id="generateBtn" disabled data-t="lab_gen_btn">🎮 Generate Game Screen</button>
+        <button class="btn-sec" id="downloadBtn" style="display:none" data-t="lab_download">💾 Download Image</button>
+        <button class="btn-sec" id="resetBtn" style="display:none" data-t="lab_reset">🔄 Upload Again</button>
+      </div>
+    </div>
+    <div class="result-box" id="resultBox">
+      <div class="placeholder" id="placeholder"><div>📱</div><p data-t="lab_placeholder">Upload a photo and the game preview will appear here</p></div>
+      <canvas id="outputCanvas" style="display:none"></canvas>
+    </div>
+  </div>
+  <div class="instructions">
+    <h3 data-t="lab_how_title">📋 How to Use</h3>
+    <ol>
+      <li data-t="lab_how_1">Click or drag a photo to upload</li>
+      <li data-t="lab_how_2">Choose your desired game scene</li>
+      <li data-t="lab_how_3">Select a filter style</li>
+      <li data-t="lab_how_4">Click Generate to see result</li>
+      <li data-t="lab_how_5">Satisfied? Click Download to save</li>
+      <li data-t="lab_how_6"><strong>All processing is local. Photos never leave your device.</strong></li>
+    </ol>
+  </div>
+</div></section>
+
+<footer><p data-t="footer1">Pictonico! Guide · June 2026</p><p style="font-size:0.72rem" data-t="footer2">AI images · Nintendo trademarks belong to respective owners</p></footer>
+
+<script src="i18n.js"></script>
+<script>
+// Re-apply translations after lang change
+var origSetLang=setLang;
+setLang=function(lang){origSetLang(lang);renderLabUI()};
+
+var uploadedImage=null,currentStyle='cartoon',currentGame='feed';
+
+var dz=document.getElementById('dropZone'),fi=document.getElementById('fileInput');
+fi.addEventListener('change',function(e){loadImage(e.target.files[0])});
+dz.addEventListener('dragover',function(e){e.preventDefault();dz.classList.add('dragover')});
+dz.addEventListener('dragleave',function(){dz.classList.remove('dragover')});
+dz.addEventListener('drop',function(e){e.preventDefault();dz.classList.remove('dragover');loadImage(e.dataTransfer.files[0])});
+
+function loadImage(file){
+  if(!file||!file.type.startsWith('image/')){alert('Please select an image file!');return}
+  var r=new FileReader();
+  r.onload=function(e){var img=new Image();img.onload=function(){uploadedImage=img;document.getElementById('generateBtn').disabled=false;dz.innerHTML='<div class="up-icon">✅</div><h3 data-t="lab_loaded">'+t('lab_loaded')+'</h3><p>'+file.name+' ('+Math.round(file.size/1024)+' KB)</p><p style="color:var(--accent);margin-top:4px" data-t="lab_reupload">'+t('lab_reupload')+'</p>';dz.style.borderStyle='solid';dz.style.borderColor='var(--green)';applyTranslations()};img.src=e.target.result};r.readAsDataURL(file)
+}
+
+document.getElementById('styleGrid').addEventListener('click',function(e){var b=e.target.closest('.style-btn');if(!b)return;document.querySelectorAll('#styleGrid .style-btn').forEach(function(x){x.classList.remove('on')});b.classList.add('on');currentStyle=b.dataset.style});
+document.getElementById('gameSelect').addEventListener('change',function(e){currentGame=e.target.value});
+document.getElementById('generateBtn').addEventListener('click',generate);
+document.getElementById('downloadBtn').addEventListener('click',function(){var a=document.createElement('a');a.download=t('lab_img_downloaded');a.href=document.getElementById('outputCanvas').toDataURL();a.click()});
+document.getElementById('resetBtn').addEventListener('click',reset);
+
+function generate(){
+  if(!uploadedImage)return;
+  var canvas=document.getElementById('outputCanvas'),ctx=canvas.getContext('2d');
+  var W=800,H=Math.round(800*uploadedImage.height/uploadedImage.width);
+  if(H<500)H=500;if(H>900)H=900;
+  canvas.width=W;canvas.height=H;
+  ctx.drawImage(uploadedImage,0,0,W,H);
+  applyStyle(ctx,W,H,currentStyle);
+  drawGameUI(ctx,W,H,currentGame);
+  canvas.style.display='block';document.getElementById('placeholder').style.display='none';
+  document.getElementById('downloadBtn').style.display='inline-flex';document.getElementById('resetBtn').style.display='inline-flex';
+}
+
+function applyStyle(ctx,W,H,style){
+  var id=ctx.getImageData(0,0,W,H),d=id.data;
+  if(style==='cartoon'){for(var i=0;i<d.length;i+=4){d[i]=Math.round(d[i]/40)*40;d[i+1]=Math.round(d[i+1]/40)*40;d[i+2]=Math.round(d[i+2]/40)*40}ctx.putImageData(id,0,0);ctx.fillStyle='rgba(255,180,100,0.08)';ctx.fillRect(0,0,W,H)}
+  else if(style==='retro'){ctx.imageSmoothingEnabled=false;var sw=Math.max(4,Math.floor(W/60));ctx.drawImage(ctx.canvas,0,0,W/4,H/4);ctx.drawImage(ctx.canvas,0,0,W/4,H/4,0,0,W,H);ctx.imageSmoothingEnabled=true;ctx.fillStyle='rgba(0,0,0,0.06)';for(var y=0;y<H;y+=3)ctx.fillRect(0,y,W,1);ctx.fillStyle='rgba(255,200,50,0.05)';ctx.fillRect(0,0,W,H)}
+  else if(style==='vivid'){for(var i=0;i<d.length;i+=4){var r=d[i],g=d[i+1],b=d[i+2];var gray=0.299*r+0.587*g+0.114*b;d[i]=Math.min(255,Math.max(0,gray+1.6*(r-gray)));d[i+1]=Math.min(255,Math.max(0,gray+1.6*(g-gray)));d[i+2]=Math.min(255,Math.max(0,gray+1.6*(b-gray)))}ctx.putImageData(id,0,0);ctx.fillStyle='rgba(0,0,0,0.03)';for(var y=0;y<H;y+=8)for(var x=0;x<W;x+=8)ctx.fillRect(x,y,4,4)}
+  else if(style==='poster'){for(var i=0;i<d.length;i+=4){d[i]=Math.min(255,d[i]*1.1);d[i+1]=Math.min(255,d[i+1]*0.95);d[i+2]=Math.min(255,d[i+2]*0.85)}ctx.putImageData(id,0,0);var grad=ctx.createRadialGradient(W/2,H/2,Math.min(W,H)*0.45,W/2,H/2,Math.max(W,H)*0.7);grad.addColorStop(0,'rgba(0,0,0,0)');grad.addColorStop(1,'rgba(0,0,0,0.4)');ctx.fillStyle=grad;ctx.fillRect(0,0,W,H)}
+}
+
+function drawGameUI(ctx,W,H,game){
+  var barH=60;
+  ctx.fillStyle='rgba(0,0,0,0.55)';ctx.fillRect(0,0,W,barH);ctx.fillStyle='rgba(255,255,255,0.08)';ctx.fillRect(0,barH,W,2);
+  ctx.font='bold 20px "Plus Jakarta Sans",sans-serif';ctx.fillStyle='#fff';
+  ctx.fillText(t('lab_timer'),20,38);
+  ctx.textAlign='right';ctx.font='bold 22px "Plus Jakarta Sans",sans-serif';ctx.fillStyle='#ffc853';
+  ctx.fillText(t('lab_score'),W-20,38);
+  ctx.textAlign='center';
+  var titles={feed:t('lab_game_title_feed'),carpet:t('lab_game_title_carpet'),boss:t('lab_game_title_boss'),clean:t('lab_game_title_clean'),mummy:t('lab_game_title_mummy')};
+  ctx.font='bold 16px "Plus Jakarta Sans",sans-serif';ctx.fillStyle='#ff6b6b';
+  ctx.fillText(titles[game]||'Pictonico!',W/2,38);
+  var phW=160,phH=8,phX=(W-phW)/2,phY=barH-20;
+  ctx.fillStyle='rgba(255,255,255,0.15)';ctx.roundRect(phX,phY,phW,phH,4);ctx.fill();
+  ctx.fillStyle='#4ecdc4';ctx.roundRect(phX,phY,phW*0.72,phH,4);ctx.fill();
+  ctx.fillStyle='rgba(0,0,0,0.55)';ctx.fillRect(0,H-56,W,56);ctx.fillStyle='rgba(255,255,255,0.08)';ctx.fillRect(0,H-56,W,2);
+  ctx.textAlign='center';ctx.font='14px "Plus Jakarta Sans",sans-serif';ctx.fillStyle='rgba(255,255,255,0.5)';
+  var hints={feed:t('lab_hint_feed'),carpet:t('lab_hint_carpet'),boss:t('lab_hint_boss'),clean:t('lab_hint_clean'),mummy:t('lab_hint_mummy')};
+  ctx.fillText(hints[game]||'',W/2,H-20);
+  ctx.font='28px sans-serif';ctx.fillText(game==='boss'?'💥':game==='feed'?'🍕':'✨',W-60,H-18);
+  ctx.strokeStyle='rgba(255,107,107,0.2)';ctx.lineWidth=2;ctx.strokeRect(8,barH+8,W-16,H-barH-64);
+}
+
+function reset(){
+  uploadedImage=null;document.getElementById('outputCanvas').style.display='none';document.getElementById('placeholder').style.display='block';
+  document.getElementById('generateBtn').disabled=true;document.getElementById('downloadBtn').style.display='none';document.getElementById('resetBtn').style.display='none';
+  dz.innerHTML='<div class="up-icon">📤</div><h3 data-t="lab_upload_title">'+t('lab_upload_title')+'</h3><p data-t="lab_upload_desc">'+t('lab_upload_desc')+'</p><input type="file" id="fileInput" accept="image/*">';
+  dz.style.borderStyle='dashed';dz.style.borderColor='var(--border)';
+  document.getElementById('fileInput').addEventListener('change',function(e){loadImage(e.target.files[0])});
+}
+
+function renderLabUI(){applyTranslations();document.getElementById('gameSelect').querySelectorAll('option').forEach(function(o){if(T[o.dataset.t])o.textContent=T[o.dataset.t][LANG.current||'en']})}
+
+if(!CanvasRenderingContext2D.prototype.roundRect){CanvasRenderingContext2D.prototype.roundRect=function(x,y,w,h,r){if(typeof r==='number')r={tl:r,tr:r,br:r,bl:r};this.beginPath();this.moveTo(x+r.tl,y);this.lineTo(x+w-r.tr,y);this.quadraticCurveTo(x+w,y,x+w,y+r.tr);this.lineTo(x+w,y+h-r.br);this.quadraticCurveTo(x+w,y+h,x+w-r.br,y+h);this.lineTo(x+r.bl,y+h);this.quadraticCurveTo(x,y+h,x,y+h-r.bl);this.lineTo(x,y+r.tl);this.quadraticCurveTo(x,y,x+r.tl,y);this.closePath()}}
+
+document.addEventListener('click',function(e){var n=document.getElementById('nl'),h=document.getElementById('ham');if(!n.contains(e.target)&&!h.contains(e.target))n.classList.remove('open')});
+</script>
+</body>
+</html>
